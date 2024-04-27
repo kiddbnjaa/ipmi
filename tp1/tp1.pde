@@ -1,3 +1,7 @@
+//Benjamin Gonzalez P.
+//comision 2
+//118972/5
+
 PImage chile;
 void setup(){
   
@@ -104,13 +108,169 @@ fill(39, 121, 44);
 triangle(400, 350, 400, 300, 650, 315);
 triangle(400, 350, 400, 400, 580, 400);
 
+noFill();
+stroke(0, 100, 6, 150);
+strokeWeight(2);
+beginShape();
+vertex(800, 288);
+vertex(650, 288);
+vertex(595, 300);
+vertex(650, 312);
+vertex(405, 350);
+vertex(575, 400);
+endShape();
+
+noFill();
+stroke(0, 100, 6, 150);
+strokeWeight(2);
+beginShape();
+vertex(650, 378);
+vertex(718, 400);
+vertex(650, 378);
+vertex(775, 350);
+vertex(800, 350);
+endShape();
 
 
+                         //A R B O L
+                         
+noStroke();
+fill(6, 90, 10);
+rect(400, 280, 20, 100);
 
-//ARBOL
+noFill();
+stroke(6, 90, 10);
+strokeWeight(5);
+beginShape(LINES);
+vertex(415, 355);
+vertex(458, 337);
+vertex(458, 337);
+vertex(470, 345);
+vertex(458, 337);
+vertex(472, 334);
+vertex(460, 337);
+vertex(463, 320);
+vertex(415, 350);
+vertex(440, 330);
+vertex(440, 330);
+vertex(475, 315);
+vertex(495, 305);
+vertex(475, 315);
+vertex(475, 300);
+vertex(475, 315);
+vertex(485, 325);
+vertex(475, 315);
+vertex(415, 335);
+vertex(470, 300);
+vertex(452, 296);
+vertex(435, 321);
+vertex(415, 315);
+vertex(435, 300);
+vertex(433, 302);
+vertex(450, 283);
+vertex(471, 329);
+vertex(475, 315);
+vertex(432, 283);
+vertex(414, 304);
+vertex(432, 282);
+vertex(436, 269);
+vertex(417, 319);
+vertex(437, 317);
+vertex(435, 300);
+vertex(460, 293);
+vertex(461, 292);
+vertex(469, 279);
+vertex(462, 293);
+vertex(482, 301);
+vertex(508, 291);
+vertex(482, 301);
+vertex(494, 285);
+vertex(482, 301);
+vertex(464, 293);
+vertex(491, 273);
+vertex(402, 283);
+vertex(410, 264);
+vertex(408, 285);
+vertex(418, 267);
+vertex(416, 282);
+vertex(422, 275);
+vertex(435, 301);
+vertex(437, 288);
+vertex(441, 293);
+vertex(469, 262);
+vertex(456, 275);
+vertex(456, 262);
+vertex(458, 276);
+vertex(479, 271);
+vertex(483, 262);
+vertex(480, 269);
+vertex(510, 290);
+vertex(508, 282);
+vertex(481, 337);
+vertex(470, 345);
+vertex(494, 317);
+vertex(486, 325);
+vertex(416, 372);
+vertex(429, 351);
+vertex(413, 376);
+vertex(438, 358);
+vertex(439, 358);
+vertex(449, 343);
+vertex(493, 264);
+vertex(492, 272);
 
+stroke(19, 72, 17);
+vertex(421, 283);
+vertex(420, 376);
+vertex(420, 365);
+vertex(441, 338);
+vertex(442, 337);
+vertex(467, 329);
+vertex(444, 335);
+vertex(449, 322);
+vertex(437, 343);
+vertex(421, 323);
+vertex(423, 324);
+vertex(451, 305);
+vertex(452, 305);
+vertex(468, 316);
+vertex(469, 315);
+vertex(483, 307);
+vertex(458, 307);
+vertex(477, 290);
+vertex(489, 294);
+vertex(483, 307);
+vertex(424, 314);
+vertex(434, 301);
+vertex(434, 301);
+vertex(465, 298);
+vertex(423, 296);
+vertex(441, 280);
+vertex(435, 300);
+vertex(445, 271);
+vertex(470, 282);
+vertex(438, 297);
+vertex(469, 282);
+vertex(474, 267);
+vertex(422, 362);
+vertex(446, 356);
+vertex(445, 356);
+vertex(448, 346);
+vertex(468, 315);
+vertex(499, 316);
+vertex(499, 315);
+vertex(502, 305);
+vertex(505, 296);
+vertex(484, 306);
+vertex(502, 287);
+vertex(505, 295);
+vertex(447, 356);
+vertex(473, 345);
+endShape();
 
-  
+fill(19, 72, 17);
+rect(402, 282, 5, 95);
+
   // imprime en consola la posicion del mouse
   println( mouseX + " / " + mouseY );
   
